@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Europ Assistance | home</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/fontes/fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <div class="header">
+                <div class="header-brand">
+                    <div class="brand-logo">
+                        <img src="Assets/img/logo/Logo_Europe.png" alt="Logotipo Europ Assistance">
+                    </div><!--brand-logo-->
+                </div><!--header-brand-->
+            </div><!--header-->            
+        </div><!--container-->
+    </section> <!--header-->
+
+    <section id="banner">
+        <div class="banner banner-trendmark">
+            <div class="container">
+                <div class="banner-content">
+                    <h1>
+                        Seja um parceiro Europ Assistance
+                    </h1>
+                    <h2>
+                        Líder mundial em soluções e serviços de assistência!
+                    </h2>
+                    
+                </div><!--banner-content-->
+            </div><!--container-->
+        </div><!--banner-->
+    </section><!--section-banner-->
+
+    <section id="stage">
+        <div class="container">
+            <div class="progressbar-container">
+                <div class="target-content">                   
+                    <div class="targetbar" id="percent-success" data-percent="99">
+                        <div class="targetbar-bar success"></div>
+                    </div>                    
+                </div><!--target-content-->
+                <p> Passo 3 de 3</p>
+            </div><!--progress-bar-->
+        </div><!--container-->
+    </section><!--section stage-->
+
+    <section id="form">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-header">
+                    <div class="form-title text-limit">                        
+                        <p>
+                            O formulário abaixo tem o intuito de nos ajudar a analisar o perfil da sua locadora e melhorar ainda mais a nossa parceria.
+                        </p>
+                    </div><!--form-title-->
+
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <div class="card-icon text-danger">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                           <p class="text-uppercase mt-3 mb-0"><strong>Atenção</strong></p>
+                        </div><!--card-header-->
+                        <div class="card-body mt-4">
+                            <div class="attention-info">
+                                <p>
+                                    Para continuar o seu cadastro é necessário que sua locadora tenha uma <strong> conta bancária PJ vinculada ao CNPJ</strong> cadastrado. Preencha os dados da sua conta para verificação. 
+                                </p>
+                                <p>
+                                    Caso não tenha uma conta vinculada ao CNPJ, continue o cadastro para entrarmos em contato.
+                                </p>      
+                            </div><!--attention-->
+                            
+                            <div class="type-account" id="type-account">
+                                <label for="accountYes" class="radio-control check-inline text-uppercase">
+                                    <input type="radio" name="account" value="pjYes" id="accountYes">
+                                        Tenho um conta bancária PJ 
+                                    <span></span>                                       
+                                </label> 
+
+                                <label for="accountNo" class="radio-control check-inline text-uppercase">
+                                    <input type="radio" name="account" value="pjNo" id="accountNo">
+                                        Não tenho uma conta bancária PJ 
+                                    <span></span>                                       
+                                </label> 
+                            </div><!--type-account-->
+                        </div><!--card-body-->
+                    </div><!--card-->
+                </div><!--form-header-->
+
+
+                <div class="form-body  mt-3">
+
+                    <div id="owner" class="container-form">
+                        <form action="registrationCompleted.html" id="formPj" class="form-block">
+                            <div class="form-limit-lg">
+                                
+                                <div class="header-form">
+                                    <h3>Banco</h3>
+                                    <p>Identificação de conta PJ</p>
+                                </div><!--form-header-->                                
+                                   
+                                <div class="row mt-5">
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">
+                                                Banco:*
+                                            </label>
+                                            <input type="text" class="form-control">
+                                            <p class="small">
+                                                Informar o nome do banco que a empresa possua conta vinculada ao CNPJ, para receber os Pagamentos.
+                                            </p>
+                                        </div><!--form-group-->
+                                    </div><!--col-6-->
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">
+                                                Agencia*
+                                            </label>
+                                            <input type="text" class="form-control">
+                                            <p class="small">
+                                                Com dígito verificador. Ex: 12345-6
+                                            </p>
+                                        </div><!--form-group-->
+                                    </div><!--col-5-->
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">
+                                                Conta*
+                                            </label>
+                                            <input type="text" class="form-control">
+                                            <p class="small">
+                                                Informar uma conta vinculada ao CNPJ da empresa com dígito verificador. Ex: 12345-6
+                                            </p>                                            
+                                        </div><!--form-group-->
+                                    </div><!--col-5-->
+                                </div><!--row-->    
+    
+                                <div class="header-form mt-5">
+                                    <h3>Responsável pelo preenchimento</h3>
+                                    <p>Identificação do colaborador responsável pelo preenchimento</p>
+                                </div><!--header-form-->
+    
+                                <div class="row mt-5">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">
+                                                Nome Completo*
+                                            </label>
+                                            <input type="text" class="form-control">
+                                        </div><!--form-group-->
+                                    </div><!--col-6-->
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">
+                                                Cargo*
+                                            </label>
+                                            <input type="text" class="form-control">
+                                        </div><!--form-group-->
+                                    </div><!--col-6-->
+                                </div><!--row-->
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">
+                                                E-mail*
+                                            </label>
+                                            <input type="text" class="form-control">
+                                        </div><!--form-group-->
+                                    </div><!--col-6-->
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">
+                                                Telefone
+                                            </label>
+                                            <input type="text" class="form-control">
+                                        </div><!--form-group-->
+                                    </div><!--col-6-->
+                                </div><!--row-->
+    
+                                <div class="header-form mt-5">
+                                    <h3>Aceite dos termos*</h3>
+                                </div><!--header-form-->
+
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="legal-text">
+                                            <p>
+                                                Para continuar o responsável pelo preenchimento deve fazer a leitura e estar de acordo com os termos de <a href="https://pdfhost.io/v/fwhSM5NYZ_Termos_de_contrato_com_prestadores_EABR" target="_blank">contrato</a>, <a href="https://www.europ-assistance.com.br/sobre-nos#codigo-de-conduta-e-etica" target="_blank">código de ética</a> para todos os serviços e <a href="#" target="_blank"> política de privacidade</a> 
+                                        </div> <!--legal-text-->                                   
+                                    </div><!--col-12-->
+                                    <div class="col-sm-12">
+                                        <div class="">
+                                            <label for="contrato" class="check-control check-inline check-light">
+                                                <input type="checkbox" name="contrato" id="contrato" required>
+                                                Li e aceito os termos de <a href="https://pdfhost.io/v/fwhSM5NYZ_Termos_de_contrato_com_prestadores_EABR" target="_blank">&nbsp;contrato</a> 
+                                                <span></span>                                       
+                                            </label>    
+                                        </div><!--div-->
+                                    </div><!--col-12-->
+                                    <div class="col-sm-12 mt-2">
+                                        <div class="">
+                                            <label for="etica" class="check-control check-inline check-light">
+                                                <input type="checkbox" name="etica" id="etica" required>
+                                                Li e aceito os termos do <a href="https://www.europ-assistance.com.br/sobre-nos#codigo-de-conduta-e-etica" target="_blank">&nbsp;código de ética</a> 
+                                                <span></span>                                       
+                                            </label>    
+                                        </div><!--div-->
+                                    </div><!--col-12-->
+                                    <div class="col-sm-12 mt-2">
+                                        <div class="">
+                                            <label for="ppd" class="check-control check-inline check-light">
+                                                <input type="checkbox" name="ppd" id="ppd"required>
+                                                Li e aceito os termos de <a href="#" target="_blank"> &nbsp;política de privacidade</a> 
+                                                <span></span>                                       
+                                            </label>    
+                                        </div><!--div-->
+                                    </div><!--col-12-->
+                                </div><!--row-->
+
+                                <div class="row mt-4">
+                                    <div class="col-sm-12">
+                                        <div class="btn-container">
+                                            <button class="btn btn-primary btn-block text-uppercase">Enviar</button>
+                                        </div><!--btn-container-->
+                                    </div><!--col-12-->
+                                </div><!--row-->
+
+                            </div><!--form-limit-->
+                        </form><!--form-->
+                    </div><!--owner-->
+                   
+
+                    <div id="responsible" hidden>
+                        <form action="registrationCompleted.html">
+                            <div class="form-limit-lg">
+                               
+                                <div class="header-form">
+                                    <h3>Responsável pelo preenchimento</h3>
+                                    <p>Identificação do colaborador responsável pelo preenchimento</p>
+                                </div><!--header-form-->
+    
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">
+                                                Nome Completo*
+                                            </label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">
+                                                Cargo*
+                                            </label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div><!--row-->
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">
+                                                E-mail*
+                                            </label>
+                                            <input type="text" class="form-control">
+                                        </div><!--form-group-->
+                                    </div><!--col-->
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">
+                                                Telefone
+                                            </label>
+                                            <input type="text" class="form-control">
+                                        </div><!--form-group-->
+                                    </div><!--col-->
+                                </div> <!--row-->
+    
+                                <div class="header-form">
+                                    <h3>Aceite dos termos*</h3>
+                                </div><!--header-form-->
+
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="legal-text">
+                                            <p>
+                                                Para continuar o responsável pelo preenchimento deve fazer a leitura e estar de acordo com os termos de <a href="https://pdfhost.io/v/fwhSM5NYZ_Termos_de_contrato_com_prestadores_EABR" target="_blank">contrato</a>, <a href="https://www.europ-assistance.com.br/sobre-nos#codigo-de-conduta-e-etica" target="_blank">código de ética</a> para todos os serviços e <a href="#" target="_blank"> política de privacidade</a> 
+                                        </div> <!--legal-text-->                                   
+                                    </div><!--col-12-->
+                                    <div class="col-sm-12">
+                                        <div class="">
+                                            <label for="contratopf" class="check-control check-inline check-light">
+                                                <input type="checkbox" name="contratopf" id="contratopf" required>
+                                                Li e aceito os termos de <a href="https://pdfhost.io/v/fwhSM5NYZ_Termos_de_contrato_com_prestadores_EABR" target="_blank">&nbsp;contrato</a> 
+                                                <span></span>                                       
+                                            </label>    
+                                        </div><!--div-->
+                                    </div><!--col-12-->
+                                    <div class="col-sm-12 mt-2">
+                                        <div class="">
+                                            <label for="eticapf" class="check-control check-inline check-light">
+                                                <input type="checkbox" name="eticapf" id="eticapf" required>
+                                                Li e aceito os termos do <a href="https://www.europ-assistance.com.br/sobre-nos#codigo-de-conduta-e-etica" target="_blank">&nbsp;código de ética</a> 
+                                                <span></span>                                       
+                                            </label>    
+                                        </div><!--div-->
+                                    </div><!--col-12-->
+                                    <div class="col-sm-12 mt-2">
+                                        <div class="">
+                                            <label for="ppdpf" class="check-control check-inline check-light">
+                                                <input type="checkbox" name="ppdpf" id="ppdpf"required>
+                                                Li e aceito os termos de <a href="#" target="_blank"> &nbsp;política de privacidade</a> 
+                                                <span></span>                                       
+                                            </label>    
+                                        </div><!--div-->
+                                    </div><!--col-12-->
+                                </div><!--row-->
+                                
+                                <div class="mt-4">
+                                    <div class="c">
+                                        <div class="btn-container">
+                                            <button class="btn btn-primary btn-block text-uppercase">Enviar</button>
+                                        </div><!--btn-container-->
+                                    </div><!--col-12-->
+                                </div><!--row-->
+
+                            </div><!--form-limit-lg-->                        
+                        </form><!--form-->
+                    </div><!--responsible-->
+                    
+                </div><!--form-body-->
+                
+            </div>  <!--form-container-->         
+        </div>  <!--container-->      
+    </section><!--section-form-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="Assets/js/main.js"></script>
+    
+</body>
+</html>
